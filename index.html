@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utkarsh Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 65);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 96px;
+            background-color: rgb(9, 9, 86);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            /*to remove the bullet*/
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(115, 115, 216);
+            font-size: 1.04rem;
+        }
+
+        #element {
+            color: brgb(115, 115, 216);
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 140px 0;
+            align-items: center;
+
+        }
+        .profile-image {
+            max-width: 94%;
+            height: auto;
+            border-radius: 57%;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection button {
+            padding: 45px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .leftSection .btn a {
+            color: aliceblue;
+        }
+
+        .leftSection {
+
+            font-size: 3rem;
+
+
+
+        }
+
+
+        .purple {
+            color: blueviolet;
+        }
+
+        .rightSection img {
+            width: 62%;
+
+        }
+
+        main hr {
+            background-color: rgb(28, 28, 190);
+            height: 1.2px;
+            border: 0;
+            margin: 60px 84px;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: aliceblue;
+            margin: 0 120px;
+        }
+      .image-top {
+            width: 55px;
+            position: relative;
+            top: -53px;
+            left: -26px;
+            height: 50px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 9px;
+
+        }
+
+        footer {
+            background-color: #0b0b31;
+            padding: 23px;
+
+
+        }
+
+        .footer {
+
+            display: flex;
+            padding: 23px 122;
+            justify-content: space-evenly;
+
+
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+
+        .footer-second a {
+            color: white;
+        }
+
+        .footer-fourth a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Utkarsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My Name is <span class="purple">Utkarsh Srivastav</span>
+                <div>
+                    and I am a passionate
+                </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"><a href="Utkarsh Srivastav resume.pdf">RESUME</a></button>
+                    <button class="btn"><a href="https://github.com/utkarsh-1122"> Visit Github</a></button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <!--<img src="PngItem_1127587.png" alt="">-->
+                <img class="profile-image" src="WhatsApp Image 2023-03-15 at 8.47.07 PM.jpeg" alt="Profile Image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have learn till now</span>
+            <h1>About My Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Java is a high-level, versatile programming language known for its platform independence, widely
+                        used for web and application development.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        HTML (Hypertext Markup Language) is the backbone of web content. It's a markup language used to
+                        structure and display web pages.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        JavaScript Developer
+                    </div>
+                    <div class="vertical-desc">
+                        JavaScript, often abbreviated as JS, is a versatile, client-side scripting language used for web
+                        development to add interactivity and dynamic behavior to websites.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="developer.png" alt="">
+                    <div class="vertical-title">
+                        SQL
+                    </div>
+                    <div class="vertical-desc">
+                        SQL (Structured Query Language) is a programming language used for managing and querying
+                        relational databases, enabling data storage, retrieval, and manipulation.
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-frist">
+                <h2>Utkarsh's Developer Portfolio</h2>
+            </div>
+            <div class="footer-second">
+                <H3>Instagram</H3>
+                <a href="https://www.instagram.com/nikkkhilll_____/">My instagram </a>
+            </div>
+            <div class="footer-third">
+                <h3>Gmail</h3>
+                <p>utkarshsri112@gmail.com</p>
+                <a href="utkarshsri112@gmail.com"></a>
+            </div>
+            <div class="footer-fourth">
+                <h3>Linkedin</h3>
+                <a href="https://www.linkedin.com/in/utkarshsri112/">My Linkedin </a>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; utkarshsportfolio.com | All right reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web</i> Developer', 'Java Programmer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+
+</body>
+
+</html>

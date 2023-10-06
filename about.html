@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Web and Java Developer</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .about {
+            text-align: center;
+            margin-top: 50px;
+            background-color: lavender;
+        }
+
+        .profile-image {
+            max-width: 20%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #000000;
+            font-style: italic;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 96px;
+            background-color: rgb(9, 9, 86);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            /*to remove the bullet*/
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(115, 115, 216);
+            font-size: 1.04rem;
+        }
+        .left {
+            font-size: 1.5rem;
+            color: white;
+        }
+        #element {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Utkarsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <div class="container">
+        <section class="about">
+            <h1>About Me</h1>
+            <img class="profile-image" src="WhatsApp Image 2023-03-15 at 8.47.07 PM.jpeg" alt="Profile Image">
+            <h2>Utkarsh Srivastav</h2>
+            <p>
+                As a dedicated web and Java developer, my passion for coding and problem-solving is the driving force
+                behind my work. With a profound understanding of both web technologies and Java programming, I embark on
+                each project with enthusiasm and expertise.
+
+                My journey as a developer has equipped me with a versatile skill set that allows me to tackle a wide
+                range of challenges in the ever-evolving digital landscape. Whether it's crafting elegant and responsive
+                web interfaces or delving into the intricacies of Java to build robust back-end systems, I relish every
+                aspect of the development process.
+
+                What truly fuels my enthusiasm is the opportunity to create interactive and user-friendly web
+                applications. I believe in the power of technology to enhance user experiences and bring innovative
+                solutions to life. This belief drives me to stay at the forefront of industry trends, ensuring that my
+                work not only meets but exceeds the expectations of both clients and end-users.
+
+                In a world where technology is the bridge to the future, I am committed to pushing boundaries, exploring
+                new horizons, and consistently delivering exceptional results in web and Java development. My journey is
+                marked by a relentless pursuit of excellence, a passion for innovation, and a commitment to making the
+                digital world a more engaging and efficient place for all.
+            </p>
+            <button id="learnMoreBtn">Learn More</button>
+        </section>
+    </div>
+
+    <script>
+        // JavaScript for making the "Learn More" button interactive
+        const learnMoreBtn = document.getElementById('learnMoreBtn');
+        learnMoreBtn.addEventListener('click', () => {
+            alert('Feel free to reach out to me for any web or Java development needs!');
+        });
+    </script>
+</body>
+
+</html>
